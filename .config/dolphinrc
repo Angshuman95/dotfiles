@@ -1,0 +1,50 @@
+MenuBar=Disabled
+
+[$Version]
+update_info=dolphin_detailsmodesettings.upd:rename-leading-padding
+
+[General]
+FilterBar=true
+RememberOpenedTabs=false
+ShowToolTips=true
+Version=202
+ViewPropsTimestamp=2022,11,5,23,8,11.402
+
+[IconsMode]
+IconSize=64
+MaximumTextLines=2
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+
+[KPropertiesDialog]
+2 screens: Height=616
+2 screens: Width=479
+HDMI1 eDP1 Height 1920x1080 HDMI1=588
+HDMI1 eDP1 Width 1920x1080 HDMI1=480
+eDP1 Height 1920x1080 eDP1=588
+eDP1 Width 1920x1080 eDP1=480
+
+[MainWindow]
+MenuBar=Disabled
+ToolBarsMovable=Disabled
+
+[MainWindow][Toolbar mainToolBar]
+ToolButtonStyle=IconOnly
+
+[Open-with settings]
+CompletionMode=1
+History=vlc
+
+[PreviewSettings]
+Plugins=appimagethumbnail,audiothumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,gsthumbnail,svgthumbnail,textthumbnail,ffmpegthumbs
+
+[Search]
+Location=Everywhere
+
+[Toolbar mainToolBar]
+ToolButtonStyle=IconOnly
+
+[VersionControl]
+enabledPlugins=Dropbox,Git

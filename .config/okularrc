@@ -1,0 +1,48 @@
+[Desktop Entry]
+FullScreen=false
+
+[MainWindow]
+2 screens: Height=1013
+2 screens: Width=952
+2 screens: XPosition=962
+2 screens: YPosition=62
+HDMI1 eDP1=HDMI1
+HDMI1 eDP1 Height 1600x900 eDP1=829
+HDMI1 eDP1 Height 1920x1080 HDMI1=1009
+HDMI1 eDP1 Width 1600x900 eDP1=1586
+HDMI1 eDP1 Width 1920x1080 HDMI1=948
+HDMI1 eDP1 Window-Maximized 1920x1080 HDMI1=true
+HDMI1 eDP1 XPosition 1600x900 eDP1=1927
+HDMI1 eDP1 XPosition 1920x1080 HDMI1=964
+HDMI1 eDP1 YPosition 1600x900 eDP1=62
+HDMI1 eDP1 YPosition 1920x1080 HDMI1=62
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAA7gAAAPHAAAABAAAAAQAAAAIAAAACPwAAAADAAAAAQAAAAEAAAAsAHEAdQBpAGMAawBBAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHICAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAA==
+ToolBarsMovable=Disabled
+eDP1=eDP1
+eDP1 Height 1920x1080 eDP1=1009
+eDP1 Width 1920x1080 eDP1=1906
+eDP1 XPosition 1920x1080 eDP1=7
+eDP1 YPosition 1920x1080 eDP1=62
+
+[Recent Files]
+File1[$e]=$HOME/Downloads/acknowledgementSlip_S1834969726000.pdf
+File10[$e]=$HOME/Dropbox/Covid Certificates/Certificate-Me.pdf
+File2[$e]=/run/media/angshuman/Seagate Backup Plus Drive/New Folder/Class12.pdf
+File3[$e]=/run/media/angshuman/Seagate Backup Plus Drive/New Folder/DOC001.pdf
+File4[$e]=/run/media/angshuman/Seagate Backup Plus Drive/New Folder/Letter of Authorization - Background Verification.pdf
+File5[$e]=/run/media/angshuman/Seagate Backup Plus Drive/New Folder/R100J76ApplicationForm.pdf
+File6[$e]=$HOME/Dropbox/Bills/Electric/2022/P42601321925405122022095513.pdf
+File7[$e]=$HOME/Dropbox/Bills/Electric/2022/P44801005316329082022213250.pdf
+File8[$e]=$HOME/Dropbox/Bills/Electric/2022/P45600987083205122022095808.pdf
+File9[$e]=$HOME/Dropbox/Bills/Electric/2022/P54400342748429082022213306.pdf
+Name1[$e]=acknowledgementSlip_S1834969726000.pdf
+Name10[$e]=Certificate-Me.pdf
+Name2[$e]=Class12.pdf
+Name3[$e]=DOC001.pdf
+Name4[$e]=Letter of Authorization - Background Verification.pdf
+Name5[$e]=R100J76ApplicationForm.pdf
+Name6[$e]=P42601321925405122022095513.pdf
+Name7[$e]=P44801005316329082022213250.pdf
+Name8[$e]=P45600987083205122022095808.pdf
+Name9[$e]=P54400342748429082022213306.pdf

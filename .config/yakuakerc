@@ -1,0 +1,11 @@
+[Appearance]
+HideSkinBorders=true
+Translucency=true
+
+[Dialogs]
+FirstRun=false
+
+[Window]
+Height=80
+KeepOpen=false
+Width=80

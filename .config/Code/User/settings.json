@@ -1,0 +1,174 @@
+{
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.wordWrap": "on",
+  "editor.rulers": [80, 120],
+  "editor.lineNumbers": "relative",
+  "editor.semanticHighlighting.enabled": true,
+  "editor.suggestSelection": "first",
+  "editor.renderWhitespace": "all",
+  "editor.linkedEditing": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.minimap.autohide": true,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.formatOnType": true,
+  "editor.inlineSuggest.enabled": true,
+
+  "files.autoSave": "afterDelay",
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.factorypath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/bin": true,
+    "**/obj": true
+  },
+
+  "window.commandCenter": true,
+
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "workbench.productIconTheme": "fluent-icons",
+
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
+
+  "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono",
+
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
+  // VIM shortcuts
+  "vim.easymotion": true,
+  "vim.surround": true,
+  "vim.useSystemClipboard": false,
+  "vim.hlsearch": true,
+  "vim.gdefault": true,
+  "vim.handleKeys": {
+    "<C-d>": true,
+    "<C-a>": false,
+    "<C-f>": false,
+    "<C-x>": false,
+    "<C-v>": false
+  },
+  "vim.leader": " ",
+  // Toggle relative line number using Settings Cycler
+  "settings.cycle": [
+    {
+      "id": "lineNumber",
+      "overrideWorkspaceSettings": false,
+      "values": [
+        {
+          "editor.lineNumbers": "on"
+        },
+        {
+          "editor.lineNumbers": "relative"
+        }
+      ]
+    }
+  ],
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["<C-n>"],
+      "commands": ["settings.cycle.lineNumber"]
+    },
+    {
+      "before": ["<leader>", "k"],
+      "commands": ["editor.action.showHover"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "e"],
+      "commands": ["workbench.action.toggleSidebarVisibility"]
+    },
+    {
+      "before": ["<leader>", "h"],
+      "commands": [":nohl"]
+    },
+    {
+      "before": ["<leader>", "l", "f"],
+      "commands": ["editor.action.formatDocument"],
+      "when": [
+        "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+      ]
+    }
+  ],
+  "vim.insertModeKeyBindingsNonRecursive": [
+    {
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.visualModeKeyBindings": [
+    {
+      "before": [">"],
+      "commands": ["editor.action.indentLines"]
+    },
+    {
+      "before": ["<"],
+      "commands": ["editor.action.outdentLines"]
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "l", "f"],
+      "commands": ["editor.action.formatSelection"],
+      "when": [
+        "editorHasDocumentSelectionFormattingProvider && editorTextFocus && !editorReadonly"
+      ]
+    }
+  ],
+
+  "Lua.telemetry.enable": false,
+
+  "oneDarkPro.editorTheme": "One Dark Pro Darker",
+
+  "gitlens.codeLens.scopes": ["document", "containers", "blocks"],
+  "gitlens.views.repositories.includeWorkingTree": true,
+
+  "tabnine.experimentalAutoImports": true,
+
+  "markdown-preview-enhanced.previewTheme": "one-dark.css",
+
+  "jupyter.debugJustMyCode": false,
+
+  // Carbon
+  "carbon.paddingVertical": 32,
+  "carbon.paddingHorizontal": 32,
+  "carbon.backgroundColor": "rgba(74,144,226,1)",
+  "carbon.dropShadow": true,
+  "carbon.dropShadowBlurRadius": 68,
+  "carbon.theme": "one-dark",
+  "carbon.windowTheme": "none",
+  "carbon.fontFamily": "Fira Code",
+  "carbon.fontSize": 14,
+  "carbon.lineHeight": 152,
+  "carbon.windowControls": true,
+  "carbon.lineNumbers": true,
+
+  "cSpell.userWords": ["Newtonsoft"],
+
+  // Language settings
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.defaultProfile.linux": "fish"
+}
