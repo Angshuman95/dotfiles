@@ -46,8 +46,8 @@ config.window_background_opacity = 0.95
 config.tab_bar_at_bottom = true
 config.use_fancy_tab_bar = true
 config.window_padding = {
-    left = 0,
-    right = 0,
+    left = 5,
+    right = 5,
     top = 0,
     bottom = 0,
 }
@@ -75,6 +75,11 @@ config.keys = {
     { key = 'k', mods = 'CTRL', action = act.EmitEvent('ActivatePaneDirection-up') },
     { key = 'l', mods = 'CTRL', action = act.EmitEvent('ActivatePaneDirection-right') },
 
+    {
+        key = 'l',
+        mods = 'LEADER|CTRL',
+        action = act.SendKey { key = 'L', mods = 'CTRL' },
+    },
     {
         key = 'v',
         mods = 'LEADER',
